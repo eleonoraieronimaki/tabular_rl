@@ -22,7 +22,7 @@ The Dynamic Programming algorithm reaches the final state in 18 iterations.
 Multiple experiments have been carried out in order to test several parameters.  Specifically, the experiments have been repeated for a number of 50 times (n_repetitions=50) in 50000 timesteps (n_timesteps=50000).
 The parameters tested in the experiments are: $\gamma$ = 1.0 , three different $\epsilon$ for the $\epsilon$-greedy policy $\epsilon$ = [0.01, 0.05, 0.2] and three different settings for the Boltzmann policy $\tau$ = [0.01, 0.1, 1.0]. The learning rate has been set to $\alpha$ = 0.25. 
 <p align="center">
-<img src="/results/exploration.png" width="600" height="500">
+<img src="/results/exploration.png" width="500" height="400">
 </p>
 
 
