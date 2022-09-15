@@ -20,11 +20,23 @@ The Dynamic Programming algorithm reaches the final state in 18 iterations.
 
 - ### Q-learning 
 Multiple experiments have been carried out in order to test several parameters.  Specifically, the experiments have been repeated for a number of 50 times (n_repetitions=50) in 50000 timesteps (n_timesteps=50000).
-The parameters tested in the experiments are: $\gamma$ = 1.0 , three different $\epsilon$ for the $\epsilon$-greedy policy $\epsilon$ = [0.01, 0.05, 0.2] and three different settings for the Boltzmann policy $\tau$ = [0.01, 0.1, 1.0]. The learning rate has been set to $\alpha$ = 0.25. 
+The parameters tested in the experiments are: γ = 1.0 , three different ε for the ε-greedy policy ε = [0.01, 0.05, 0.2] and three different settings for the Boltzmann policy τ = [0.01, 0.1, 1.0]. The learning rate has been set to α = 0.25. 
 <p align="center">
 <img src="/results/exploration.png" width="500" height="400">
 </p>
 
+- ### Q-learning vs SARSA
+Again, the experiments have been repeated for a number of 50 times (n_repetitions=50) in 50000 timesteps. (n_timesteps=50000). The figure below represent the plots based on the average of the results obtained through the 50 repetitions. 
+The parameters tested in the experiments are: γ = 1.0 , three different learning rates α= [0.05,0.2,0.4], ε= 0.05 for the ε-greedy policy and τ= 1.0 for the Boltzmann policy.
+<p align="center">
+<img src="/results/on_off_policy.png" width="500" height="400">
+</p>
 
+- ### n-step Q-learning vs Monte Carlo
+The figure below represent the plots based on the average of the results obtained through the 50 repetitions in 5000 timesteps.
+The parameters tested in the experiments are: γ = 1.0 , α= 0.25, ε= 0.05 for the ε-greedy policy and τ = 1.0 for the Boltzmann policy. In addition, different depths of the target have been tested for the n-step Q-learning and Monte Carlo, with n = [1,3,5,10,20,100].
+<p align="center">
+<img src="/results/depth.png" width="500" height="400">
+</p>
  
 
