@@ -8,6 +8,6 @@ The methods are tested on the so called environment Stochastic Windy Gridworld. 
 wind is random, since it blows 80% of the time makes the environment stochastic. The agent’s reward is -1 in each step and +35 if the goal is reached. Achieving the final state leads to the termination of the episode. 
 
 <p>
-<img src="environment.png" width="400" height="300">
+<img src="environment.png" width="400" height="300" alt>
 <em> Stochastic Windy Gridworld: 10x7 grid. ’S’ is the agent’s starting point and ’G’ is the goal. The small arrows in columns 3,4,5,8 indicate that the wind moves the agent upwards by one step, whereas the big ones in columns 6,7 indicate a two step movement.</em>
 </p>
