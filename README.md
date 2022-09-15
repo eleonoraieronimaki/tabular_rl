@@ -1,1 +1,1 @@
-# tabular_rl
+# Tabular Reinforcement Learning
