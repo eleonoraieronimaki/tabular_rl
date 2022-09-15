@@ -10,5 +10,4 @@ wind is random, since it blows 80% of the time makes the environment stochastic.
 
 <p align="center">
 <img src="environment.png" width="400" height="300">
-<em>Stochastic Windy Gridworld: 10x7 grid. ’S’ is the agent’s starting point and ’G’ is the goal. The small arrows in columns 3,4,5,8 indicate that the wind moves the agent upwards by one step, whereas the big ones in columns 6,7 indicate a two step movement.</em>
 </p>
